@@ -40,3 +40,8 @@ Before you begin, make sure you have the following installed on your system:
    ```bash
    localhost:8080
    ```
+3. **Delete the container**
+   Execute this to check the running container
+   ```bash
+   docker ps -a
+   ```
