@@ -28,11 +28,11 @@ Before you begin, make sure you have the following installed on your system:
    ```bash
    docker build -t coderserver .
    ```
-   Once the build process is completed,Execute
+   Once the build process is completed,Execute this to check the images is build successfully
    ```bash
    docker images
    ```
-   To check the images is build successfully
+   To run the container execute
    ```bash
    docker run -it --rm -d -p 8080:8080 coderserver --name codeservercontainer
    ```
