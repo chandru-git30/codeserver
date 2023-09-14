@@ -40,8 +40,22 @@ Before you begin, make sure you have the following installed on your system:
    ```bash
    localhost:8080
    ```
-3. **Delete the container**
+3. **Delete the container:**
    Execute this to check the running container
    ```bash
    docker ps -a
    ```
+   Delete the container
+   ```bash
+   docker rm <container id>
+   ```
+4.**Delete the Image:
+   Exexute this to see the images
+   ```bash
+   docker images
+   ```
+   Delete the Image
+   ```bash
+   docker rmi <image id>
+   ```
+***Thankyou***
