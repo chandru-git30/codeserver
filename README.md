@@ -49,7 +49,7 @@ Before you begin, make sure you have the following installed on your system:
    ```bash
    docker rm <container id>
    ```
-4.**Delete the Image:
+4. **Delete the Image:**
    Exexute this to see the images
    ```bash
    docker images
